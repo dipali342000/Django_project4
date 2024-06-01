@@ -16,3 +16,5 @@ def student_view(request):
 
     context = {'form': form}
     return render(request, template_name, context)
+
+    ##
